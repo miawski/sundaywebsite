@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(189, 82, 246);
+  margin: 0;
+  font-weight: lighter;
+}
+header {
+  size: 5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li a {
+  color: #ffe0ff;
+  outline: 2px darkviolet;
+
+  font-weight: normal;
+  font: menu;
+}
+nav li a:hover {
+  color: #fa00fa82;
+  background-color: #ffe0ff;
+}
+
+nav {
+  display: inline-block;
+  background-color: rgba(137, 43, 226, 0.459);
+  padding: 12px 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: #b20ce9;
+}
+
+main {
+  margin-top: 65px;
+
+  margin-right: 1.5rem;
+  text-align: left;
+}
+
+h1 {
+  margin-top: 5rem;
+  margin: 0 auto;
+  margin-left: 2.5rem;
+  border: 10rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  background-color: #6b36616f;
+  color: #dbdbdb;
+  border-width: large;
+  padding: 0;
+  list-style: none;
+}
+
+figure p {
+  font-style: italic;
+  font-size: xx-small;
+  color: rgba(255, 255, 255, 0.463);
+  align-items: center;
+  margin: center;
+  border-radius: 10px;
+  border: 1px rgba(0, 0, 0, 0.051);
+  max-width: 100%;
+  margin-top: 20px;
+  margin-left: 6rem;
+}
+
+content {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  align-items: center;
+}
+.div-img {
+  margin: 1rem 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.headimg:hover {
+  transform: none;
+}
+
+.wide {
+  width: 500px;
+  height: 150px;
+  transition: none;
+}
+.old:hover {
+  transform: none;
+}
+
+.nohov:hover {
+  transform: none;
+}
+
+p {
+  text-wrap: balance;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: cornsilk;
+  margin-top: 20px;
+  margin-left: 2.5rem;
+}
+
+snippet {
+  text-align: left;
+  text-wrap: inherit;
+  background-color: darkgrey;
+  margin-right: 45rem;
+  outline-style: dashed;
+  outline-color: grey;
+  color: cornsilk;
+  margin-left: 2.5rem;
+  color: cornsilk;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.cta-btn {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffe0ff;
+  background-color: #fa00fa52;
+  padding: 10px 16px;
+  margin: 1em;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px groove #fa00fa38;
+}
+
+.cta-btn:hover {
+  color: #fa00fa82;
+  background-color: #ffe0ff;
+}
+
+h2 {
+  border-width: large;
+  margin-top: 40px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: cornsilk;
+  background-color: #852c8238;
+  margin: 0 auto;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  background-position-x: left;
+  text-wrap: balance;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  color: cornsilk;
+
+  font-weight: lighter;
+
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 2.5rem;
+}
+
+h4 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+
+  color: cornsilk;
+  font-weight: lighter;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 2.5rem;
+}
+
+p {
+  color: cornsilk;
+  margin-top: 20px;
+  text-align: left;
+}
+
+footer {
+  color: rgba(255, 248, 220, 0.552);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: small;
+  margin-top: 100px;
+  align-items: last baseline;
+}

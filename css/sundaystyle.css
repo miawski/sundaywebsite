@@ -140,20 +140,6 @@ p {
   margin-left: 2.5rem;
 }
 
-snippet {
-  text-align: left;
-  text-wrap: inherit;
-  background-color: darkgrey;
-  margin-right: 45rem;
-  outline-style: dashed;
-  outline-color: grey;
-  color: cornsilk;
-  margin-left: 2.5rem;
-  color: cornsilk;
-  margin-top: 20px;
-  text-align: left;
-}
-
 .cta-btn {
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -164,6 +150,18 @@ snippet {
   border-radius: 4px;
   display: inline-block;
   text-decoration: none;
+  border: 1px groove #fa00fa38;
+}
+
+.w3schools {
+  text-decoration: underline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffe0ff;
+  background-color: rgba(169, 169, 169, 0.34);
+  padding: 10px 10px;
+  border-radius: 1px;
+  display: inline-block;
+  text-decoration-line: underline;
   border: 1px groove #fa00fa38;
 }
 

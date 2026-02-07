@@ -174,7 +174,6 @@ snippet {
 
 h2 {
   border-width: large;
-  margin-top: 40px;
   font-family:
     system-ui,
     -apple-system,
@@ -200,6 +199,8 @@ h2 {
 }
 
 h3 {
+  margin-top: 20px;
+
   font-family:
     system-ui,
     -apple-system,
@@ -214,11 +215,8 @@ h3 {
     sans-serif;
 
   color: cornsilk;
-
-  font-weight: lighter;
-
+  font-weight: normal;
   text-align: left;
-  margin-top: 5px;
   margin-left: 2.5rem;
 }
 

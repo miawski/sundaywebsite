@@ -8,9 +8,6 @@ body {
   margin: 0;
   font-weight: lighter;
 }
-header {
-  size: 5rem;
-}
 
 nav ul {
   margin: 0;
@@ -65,29 +62,16 @@ h1 {
   text-align: left;
   background-color: #6b36616f;
   color: #dbdbdb;
-  border-width: large;
   padding: 0;
   list-style: none;
 }
 
-figure p {
-  font-style: italic;
-  font-size: xx-small;
-  color: rgba(255, 255, 255, 0.463);
-  align-items: center;
-  margin: center;
-  border-radius: 10px;
-  border: 1px rgba(0, 0, 0, 0.051);
-  max-width: 100%;
-  margin-top: 20px;
-  margin-left: 6rem;
-}
-
-content {
+.content {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   align-items: center;
 }
+
 .div-img {
   margin: 1rem 0;
 }
@@ -109,14 +93,15 @@ img:hover {
 }
 
 .wide {
-  width: 500px;
-  height: 150px;
-  transition: none;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .old:hover {
   transform: none;
 }
-
 .nohov:hover {
   transform: none;
 }
@@ -171,7 +156,6 @@ p {
 }
 
 h2 {
-  border-width: large;
   font-family:
     system-ui,
     -apple-system,
